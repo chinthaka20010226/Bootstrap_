@@ -10,22 +10,27 @@
         <title>Document</title>
     </head>
 
-    <!-- balance margin, border & padding  ===> add container class to the body -->
-    <body class="container">
-        <div>
-            <p class="lead">Basic grid</p>
-
-            <div class="row align-items-start">
-                <div class="col border p-4">
-                    001
-                </div>
-                <div class="col border p-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo itaque culpa quibusdam pariatur consectetur nostrum facilis alias quis expedita, iure doloremque ipsa deserunt excepturi dolorum in tempore temporibus totam libero.
-                </div>
-                <div class="col border p-4">
-                    003
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img src="./images/401-logo.png" height="28" alt="CoolBrand">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <a href="#" class="nav-item nav-link">Profile</a>
+                        <a href="#" class="nav-item nav-link">Messages</a>
+                        <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <a href="#" class="nav-item nav-link">Login</a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </nav>
     </body>
 </html>
