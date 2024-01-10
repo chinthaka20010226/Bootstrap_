@@ -11,37 +11,33 @@
     </head>
 
     <body>
-        <nav id="navbar-example2" class="navbar navbar-light bg-light px-3 container sticky-top">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link" href="#First">First</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Second">Second</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Third">Third</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Fourth">Fourth</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Fifth">Fifth</a>
-                </li>
-            </ul>
-        </nav>
-        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example container" tabindex="0">
-            <h4 id="First">First</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum odio nam, amet delectus molestias esse, fugiat rerum maiores ipsum mollitia eligendi ea placeat laudantium. Porro facere quam modi nam laboriosam nobis aliquid eum sint accusamus, sit corrupti similique enim pariatur voluptatem odio odit quia exercitationem repudiandae illum libero mollitia ea ipsam. Voluptatum temporibus nihil possimus! Sequi omnis magni nobis unde expedita voluptatibus doloribus reiciendis placeat, vel voluptates quod, iste quisquam cumque blanditiis repellendus similique ipsam aliquam non tempora quis! Quis, necessitatibus quidem fugit autem pariatur tempore inventore voluptas saepe nemo voluptates quos eos eum beatae dicta placeat architecto? Earum, sint.</p>
-            <h4 id="Second">Second</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum odio nam, amet delectus molestias esse, fugiat rerum maiores ipsum mollitia eligendi ea placeat laudantium. Porro facere quam modi nam laboriosam nobis aliquid eum sint accusamus, sit corrupti similique enim pariatur voluptatem odio odit quia exercitationem repudiandae illum libero mollitia ea ipsam. Voluptatum temporibus nihil possimus! Sequi omnis magni nobis unde expedita voluptatibus doloribus reiciendis placeat, vel voluptates quod, iste quisquam cumque blanditiis repellendus similique ipsam aliquam non tempora quis! Quis, necessitatibus quidem fugit autem pariatur tempore inventore voluptas saepe nemo voluptates quos eos eum beatae dicta placeat architecto? Earum, sint.</p>
-            <h4 id="Third">Third</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum odio nam, amet delectus molestias esse, fugiat rerum maiores ipsum mollitia eligendi ea placeat laudantium. Porro facere quam modi nam laboriosam nobis aliquid eum sint accusamus, sit corrupti similique enim pariatur voluptatem odio odit quia exercitationem repudiandae illum libero mollitia ea ipsam. Voluptatum temporibus nihil possimus! Sequi omnis magni nobis unde expedita voluptatibus doloribus reiciendis placeat, vel voluptates quod, iste quisquam cumque blanditiis repellendus similique ipsam aliquam non tempora quis! Quis, necessitatibus quidem fugit autem pariatur tempore inventore voluptas saepe nemo voluptates quos eos eum beatae dicta placeat architecto? Earum, sint.</p>
-            <h4 id="Fourth">Fourth</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum odio nam, amet delectus molestias esse, fugiat rerum maiores ipsum mollitia eligendi ea placeat laudantium. Porro facere quam modi nam laboriosam nobis aliquid eum sint accusamus, sit corrupti similique enim pariatur voluptatem odio odit quia exercitationem repudiandae illum libero mollitia ea ipsam. Voluptatum temporibus nihil possimus! Sequi omnis magni nobis unde expedita voluptatibus doloribus reiciendis placeat, vel voluptates quod, iste quisquam cumque blanditiis repellendus similique ipsam aliquam non tempora quis! Quis, necessitatibus quidem fugit autem pariatur tempore inventore voluptas saepe nemo voluptates quos eos eum beatae dicta placeat architecto? Earum, sint.</p>
-            <h4 id="Fifth">Fifth</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum odio nam, amet delectus molestias esse, fugiat rerum maiores ipsum mollitia eligendi ea placeat laudantium. Porro facere quam modi nam laboriosam nobis aliquid eum sint accusamus, sit corrupti similique enim pariatur voluptatem odio odit quia exercitationem repudiandae illum libero mollitia ea ipsam. Voluptatum temporibus nihil possimus! Sequi omnis magni nobis unde expedita voluptatibus doloribus reiciendis placeat, vel voluptates quod, iste quisquam cumque blanditiis repellendus similique ipsam aliquam non tempora quis! Quis, necessitatibus quidem fugit autem pariatur tempore inventore voluptas saepe nemo voluptates quos eos eum beatae dicta placeat architecto? Earum, sint.</p>
+        <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            Link with href
+        </a>
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            Button with data-bs-target
+        </button>
+        
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                </div>
+                <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                        Dropdown button
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </body>
 </html>
