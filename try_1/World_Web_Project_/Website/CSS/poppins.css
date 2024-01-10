@@ -10,7 +10,7 @@
 */
 
 @font-face {
-  font-family: 'Poppins-Variable';
+  font-family: 'poppins';
   src: url('../fonts/Poppins-Variable.woff2') format('woff2'),
        url('../fonts/Poppins-Variable.woff') format('woff'),
        url('../fonts/Poppins-Variable.ttf') format('truetype');
