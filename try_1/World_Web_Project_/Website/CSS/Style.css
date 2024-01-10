@@ -3,7 +3,11 @@
 ---------------------------------------------- */
 
 :root {
-    
+    --c-primary: #975af9;
+    --c-secondary: #46a7f8;
+    --c-background: #e6e6e6;
+    --c-dark: #2d2d2d;
+    --c-black: #000000;
     --font-base: "poppins", sans-serif;
 }
 
