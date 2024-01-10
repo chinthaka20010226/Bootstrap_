@@ -40,6 +40,10 @@ img {
     height: auto;
 }
 
+.navbar-dark {
+    background-color: var(--c-black);
+}
+
 /* ----------------------------------------------
     buttons css setup               
 ---------------------------------------------- */
