@@ -13,8 +13,32 @@
 
 body {
     font-family: var(--font-base);
+    font-size: 18px;
+    line-height: 1.6;
 }
 
+.h1 .h2 .h3 .h4 .h5 .h6 {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: var(--c-primary);
+}
+
+a:hover {
+    color: var(--c-secondary);
+}
+
+.section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 /* ----------------------------------------------
     buttons css setup               
