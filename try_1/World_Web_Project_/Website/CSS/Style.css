@@ -21,6 +21,11 @@ body {
     font-weight: 600;
 }
 
+p {
+    font-family: var(--font-base);
+    font-size: 14px;
+}
+
 a {
     text-decoration: none;
     color: var(--c-primary);
@@ -106,6 +111,18 @@ img {
     font-family: var(--font-base);
 }
 
+.brand-title-light {
+    font-size: 55px;
+    font-weight: 600;
+    font-family: var(--font-base);
+    color: var(--c-background);
+}
+
+.brand-p-2 {
+    font-size: 16px;
+    font-family: var(--font-base);
+}
+
 /* ----------------------------------------------
     iconbox css setup               
 ---------------------------------------------- */
@@ -113,8 +130,9 @@ img {
 .iconbox {
     background-color: var(--c-background);
     color: var(--c-primary);
-    width: 50px;
+    width: 60px;
     height: 65px;
     align-items: center;
     font-size: 40px;
+    flex: none;
 }
