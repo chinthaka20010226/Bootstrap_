@@ -67,3 +67,8 @@ img {
     background-position: center;
     margin-top: -55px;
 }
+
+.herotext {
+    font-size: 80px;
+    font-weight: 700;
+}
