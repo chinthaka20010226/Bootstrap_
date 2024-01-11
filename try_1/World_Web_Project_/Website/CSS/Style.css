@@ -93,3 +93,28 @@ img {
 /* ----------------------------------------------
     about us css setup               
 ---------------------------------------------- */
+
+.brand-title {
+    font-size: 65px;
+    font-weight: 600;
+    font-family: var(--font-base);
+}
+
+.brand-p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--font-base);
+}
+
+/* ----------------------------------------------
+    iconbox css setup               
+---------------------------------------------- */
+
+.iconbox {
+    background-color: var(--c-background);
+    color: var(--c-primary);
+    width: 50px;
+    height: 65px;
+    align-items: center;
+    font-size: 40px;
+}
